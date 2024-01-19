@@ -1,7 +1,30 @@
 .App {
   text-align: center;
-}
+  /* border: 1px solid; */
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #f1f1f1;
 
+}
+button{
+  border: 0;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.salon{
+  color: #fff;
+  padding: 10px;
+  border-radius: 15px;
+}
+.active{
+  background-color:#106710;
+}
+.noactive{
+  background-color:#a52a2a;
+
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
